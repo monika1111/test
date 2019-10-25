@@ -1,0 +1,24 @@
+.mySlides {
+    display : none;
+}
+
+.preview-user-img {
+    display: flex;
+    margin: 20px 0px 11px 0px;
+    align-items: center;
+}
+
+.preview-user-img img {
+    object-fit: cover;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+}
+
+.user-name {
+    color: black;
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: 12px;
+}
+

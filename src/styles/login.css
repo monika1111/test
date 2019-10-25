@@ -1,0 +1,101 @@
+.flex-container {
+    height  : 100%;
+    display : flex;
+}
+
+.float-container {
+    border   : solid 1px #ccc;
+    padding  : 0 8px;
+    position : relative;
+}
+
+.float-container input {
+    border    : none;
+    font-size : 16px;
+    outline   : 0;
+    padding   : 19px 0 4px;
+    width     : 92%;
+}
+
+.inputLable {
+    font-size : 13px;
+    color     : #8c8c8c;
+    position  : absolute;
+}
+
+.maskIcon {
+    position : absolute;
+    right    : 2px;
+    top      : 13px;
+    cursor   : pointer;
+}
+
+.loginContent {
+    width : 61%;
+}
+
+.item-1 {
+    /* flex-grow: 1; */
+    width           : 40%;
+    display         : flex;
+    height          : 100%;
+    justify-content : center;
+    align-items     : center;
+    min-height: 335px;
+}
+
+.item-2 {
+    width : 60%;
+    /* flex-grow: 5; */
+}
+
+.text-danger {
+    color: red;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.item-2 img {
+    position            : absolute;
+    min-height: 335px;
+    height              : 100%;
+    width               : 60%;
+    top                 : 0;
+    right               : 0;
+    z-index             : 100;
+    background-image    : url('../img.png');
+    background-position : 50%;
+    background-size     : cover;
+}
+
+.sign-in {
+    font-size   : 25px;
+    font-weight : bold;
+}
+
+.enter {
+    color      : #8c8c8c;
+    margin-top : 15px;
+    font-size: 15px;
+}
+
+.login-form {
+    margin-top : 40px;
+}
+
+.submit {
+    margin-top : 60px;
+    color      : white;
+    background : black;
+    border     : none;
+    cursor     : pointer;
+    padding    : 7px 28px;
+}
+
+.passDiv {
+    border-top : none;
+}
+
+.login-form .active {
+    border-left : 1px solid black;
+}

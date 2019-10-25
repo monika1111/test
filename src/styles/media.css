@@ -1,0 +1,48 @@
+.mediaCont {
+    display       : flex;
+    flex-wrap     : wrap;
+    align-content : space-between;
+    margin-top    : 15px;
+}
+
+.img, .uploadImg {
+    width      : 40%;
+    height     : 200px;
+    margin     : 20px 20px 0 0;
+    box-shadow : 0 0 4px #d4d3d3;
+}
+
+#file-input {
+    display : none;
+}
+
+.uploadImg {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    color           : #f22564;
+    font-size       : 50px;
+    cursor          : pointer;
+}
+
+.uploadImg label {
+    cursor : pointer;
+}
+
+.img img {
+    width      : 100%;
+    height     : 100%;
+    object-fit : cover;
+}
+
+.img {
+    position : relative;
+}
+
+.remove {
+    position  : absolute;
+    top       : 7px;
+    right     : 7px;
+    font-size : 21px;
+    color     : white;
+}

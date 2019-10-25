@@ -1,0 +1,79 @@
+.container {
+    display         : flex;
+    justify-content : center;
+    color           : #999999;
+}
+
+.sideBar {
+    width : 20%;
+    font-size: 15px;
+}
+
+.sideBar ul {
+    width        : 53%;
+    margin-top   : 0px;
+    padding-left : 0px;
+}
+
+.container {
+    margin-top : 95px;
+}
+
+.listItem {
+    display         : flex;
+    list-style-type : none;
+    margin-bottom   : 43px;
+    cursor          : pointer;
+}
+
+.number {
+    margin-right : 20px;
+}
+
+.checkIcon {
+    font-size   : 13px;
+    color       : #f22564;
+    margin-left : 5px;
+}
+
+.contentTitle {
+    font-size   : 25px;
+    font-weight : bold;
+    color       : black;
+}
+
+.active {
+    color : black;
+}
+
+.continue {
+    margin-top : 60px;
+    color      : white;
+    background : black;
+    border     : none;
+    cursor     : pointer;
+    padding    : 7px 55px;
+}
+
+.dashboard {
+    margin-bottom : 30px;
+}
+
+.content {
+    width : 40%;
+    font-size: 15px;
+}
+
+.contentTitle {
+    margin-bottom : 15px;
+}
+
+.description{
+    width: 84%;
+    color: #767171;
+}
+
+
+
+
+

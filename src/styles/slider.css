@@ -1,0 +1,48 @@
+.next {
+    position  : absolute;
+    top       : 50%;
+    color     : white;
+    right     : 10px;
+    font-size : 28px;
+    cursor    : pointer;
+}
+
+.prev {
+    position  : absolute;
+    top       : 50%;
+    color     : white;
+    left      : 10px;
+    font-size : 28px;
+    cursor    : pointer;
+}
+
+.slide {
+    /* position: relative; */
+    z-index          : 3;
+    position         : fixed;
+    display          : flex;
+    left             : 0;
+    top              : 0;
+    width            : 100%;
+    height           : 100%;
+    background-color : #9e9e9e;
+}
+
+.slide img {
+    width      : 100%;
+    height     : 100%;
+    object-fit : cover;
+}
+
+.mySlides {
+    display : none;
+}
+
+.image-display-container {
+    margin   : auto;
+    width    : 45%;
+    height   : 70%;
+    position : relative;
+    padding  : 0;
+    outline  : 0;
+}
